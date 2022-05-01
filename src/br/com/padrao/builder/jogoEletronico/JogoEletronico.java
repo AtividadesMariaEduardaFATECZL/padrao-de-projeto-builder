@@ -13,4 +13,12 @@ public class JogoEletronico extends Produto {
         this.nome = nome;
         this.videoGame = videoGame;
     }
+
+    @Override
+    public String toString() {
+        return "JogoEletronico{" +
+                "nome='" + nome + '\'' +
+                ", videoGame=" + videoGame +
+                "} " + super.toString();
+    }
 }
